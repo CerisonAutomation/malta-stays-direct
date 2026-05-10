@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-500: #db8a2c;
+    scroll-behavior: smooth;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Focus ring for keyboard navigation */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2;
+  }
+
+  /* Smooth scrolling for date picker */
+  .rdp {
+    --rdp-accent-color: #db8a2c;
+    --rdp-background-color: #faefd9;
+  }
+}
+
+@layer components {
+  /* Shimmer loading skeleton */
+  .skeleton {
+    @apply relative overflow-hidden bg-surface-100;
+  }
+  .skeleton::after {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.6s infinite;
+  }
+
+  /* Price highlight */
+  .price-tag {
+    @apply font-bold text-brand-600;
+  }
+
+  /* Booking widget sticky wrapper */
+  .booking-widget {
+    @apply sticky top-24 rounded-2xl border border-surface-200 bg-white p-6 shadow-card;
+  }
+
+  /* CTA button */
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-xl bg-brand-500 px-6 py-3.5
+           text-sm font-semibold text-white shadow transition
+           hover:bg-brand-600 focus-visible:ring-brand-500
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-xl border border-surface-300
+           bg-white px-6 py-3.5 text-sm font-semibold text-surface-700 shadow-sm
+           transition hover:bg-surface-50 focus-visible:ring-brand-500;
+  }
+}
