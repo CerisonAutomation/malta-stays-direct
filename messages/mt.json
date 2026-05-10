@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "forOwners": "Għal Sidien",
+    "bookAStay": "Ibbukkja Soġġorn",
+    "contact": "Kuntatt",
+    "bookNow": "Ibbukkja Issa",
+    "whyChooseUs": "Għaliex Agħżilna",
+    "pricingPlans": "Pjanijiet tal-Prezz",
+    "ourServices": "Is-Servizzi Tagħna",
+    "portfolio": "Portafoll",
+    "listYourProperty": "Elenca l-Proprjetà Tiegħek",
+    "browseAllProperties": "Ara l-Proprjetajiet Kollha",
+    "mapView": "Veduta tal-Mappa",
+    "valletta": "Valletta",
+    "stjulians": "San Ġiljan",
+    "sliema": "Sliema"
+  },
+  "hero": {
+    "headline": "Il-Btala Perfetta f'Malta Tibda Hawn",
+    "subheadline": "Akkomodazzjonijiet magħżula f'Malta, immexxija minn Christiano Property Management.",
+    "searchPlaceholder": "Fejn f'Malta?",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Ospiti",
+    "search": "Fittex"
+  },
+  "properties": {
+    "title": "Ara l-Proprjetajiet",
+    "noResults": "Ma nstabet l-ebda proprjetà.",
+    "perNight": "/ lejl",
+    "beds": "sodod",
+    "baths": "banjijiet",
+    "guests": "ospiti",
+    "viewDetails": "Ara d-Dettalji"
+  },
+  "owners": {
+    "heroTitle": "Aqla' Aktar mill-Proprjetà Tiegħek f'Malta",
+    "heroSubtitle": "Ġestjoni professjonali tal-proprjetà biex tgawdi dħul passiv mingħajr problemi.",
+    "getStarted": "Ibda Llum",
+    "learnMore": "Tkompla Taqra"
+  },
+  "contact": {
+    "title": "Ikkuntattjana",
+    "subtitle": "Nixtiequ nisimgħu mingħandek. Ibgħatilna messaġġ u nwieġbuk fi żmien 2 sigħat.",
+    "name": "Isem Sħiħ",
+    "email": "Indirizz tal-Email",
+    "phone": "Numru tat-Telefon (fakultattiv)",
+    "enquiryType": "Tip ta' Mistoqsija",
+    "message": "Il-Messaġġ Tiegħek",
+    "send": "Ibgħat il-Messaġġ",
+    "sending": "Qed jibgħat...",
+    "successTitle": "Messaġġ Mibgħut!",
+    "successMsg": "Grazzi talli kkuntattjajtna. Nwieġbuk dalwaqt.",
+    "guest": "Jien ospite",
+    "owner": "Jien sid tal-proprjetà",
+    "other": "Oħra"
+  },
+  "footer": {
+    "forGuests": "Għall-Ospiti",
+    "forOwners": "Għall-Sidien tal-Proprjetà",
+    "contactUs": "Ikkuntattjana",
+    "rights": "Id-drittijiet kollha riżervati."
+  },
+  "common": {
+    "loading": "Qed jgħabbi...",
+    "error": "Xi ħaġa marret ħażin. Erġa' pprova.",
+    "back": "Lura",
+    "close": "Agħlaq"
+  }
+}
