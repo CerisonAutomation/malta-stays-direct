@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "christianopropertymanagement"
+  },
+  "targets": {
+    "christianopropertymanagement": {
+      "hosting": {
+        "christianopropertymanagement": [
+          "christianopropertymanagement"
+        ]
+      }
+    }
+  }
+}
