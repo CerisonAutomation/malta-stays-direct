@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   images: {
@@ -10,12 +10,14 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'a0.muscache.com' },
       { protocol: 'https', hostname: 'images.guesty.com' },
       { protocol: 'https', hostname: '*.guesty.com' },
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'plus.unsplash.com' },
     ],
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
   },
   experimental: {
-    optimizePackageImports: ['lucide-react', 'framer-motion'],
+    optimizePackageImports: ['lucide-react', 'framer-motion', '@measured/puck'],
   },
   headers: async () => [
     {
@@ -25,24 +27,13 @@ const nextConfig: NextConfig = {
         { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
         { key: 'X-Content-Type-Options', value: 'nosniff' },
         { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-        {
-          key: 'Permissions-Policy',
-          value: 'camera=(), microphone=(), geolocation=()',
-        },
-      ],
-    },
-    {
-      source: '/api/(.*)',
-      headers: [
-        { key: 'Cache-Control', value: 'no-store, max-age=0' },
+        { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
       ],
     },
   ],
-  async redirects() {
-    return [
-      { source: '/', destination: '/en', permanent: true },
-    ];
-  },
+  redirects: async () => [
+    { source: '/en', destination: '/', permanent: true },
+  ],
 };
 
 export default withNextIntl(nextConfig);
