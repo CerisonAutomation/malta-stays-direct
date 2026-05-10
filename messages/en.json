@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "forOwners": "For Owners",
+    "bookAStay": "Book a Stay",
+    "contact": "Contact",
+    "bookNow": "Book Now",
+    "whyChooseUs": "Why Choose Us",
+    "pricingPlans": "Pricing Plans",
+    "ourServices": "Our Services",
+    "portfolio": "Portfolio",
+    "listYourProperty": "List Your Property",
+    "browseAllProperties": "Browse All Properties",
+    "mapView": "Map View",
+    "valletta": "Valletta",
+    "stjulians": "St Julian's",
+    "sliema": "Sliema"
+  },
+  "hero": {
+    "headline": "Your Perfect Malta Getaway Starts Here",
+    "subheadline": "Handpicked holiday rentals in Malta's finest locations, managed by Christiano Property Management.",
+    "searchPlaceholder": "Where in Malta?",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests",
+    "search": "Search"
+  },
+  "properties": {
+    "title": "Browse Properties",
+    "noResults": "No properties found matching your criteria.",
+    "perNight": "/ night",
+    "beds": "beds",
+    "baths": "baths",
+    "guests": "guests",
+    "viewDetails": "View Details"
+  },
+  "owners": {
+    "heroTitle": "Earn More from Your Malta Property",
+    "heroSubtitle": "Professional property management so you can enjoy passive income without the hassle.",
+    "getStarted": "Get Started Today",
+    "learnMore": "Learn More"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. Send us a message and we'll respond within 2 hours.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number (optional)",
+    "enquiryType": "Enquiry Type",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMsg": "Thank you for reaching out. We'll get back to you shortly.",
+    "guest": "I'm a guest",
+    "owner": "I'm a property owner",
+    "other": "Other"
+  },
+  "footer": {
+    "forGuests": "For Guests",
+    "forOwners": "For Property Owners",
+    "contactUs": "Contact Us",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "back": "Back",
+    "close": "Close"
+  }
+}
